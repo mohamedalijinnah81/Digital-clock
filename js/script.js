@@ -35,7 +35,7 @@ function calculateTime() {
   colon2.innerHTML = "";
   //   sec++;
   amDiv.style.fontSize = "0.4em";
-  let currentTime = new Date();
+  const currentTime = new Date();
   let ampm = "AM";
   let sec = currentTime.getSeconds();
   let min = currentTime.getMinutes();
